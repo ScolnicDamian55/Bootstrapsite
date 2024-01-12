@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineFilms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style1.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-xxl">
+              <a class="navbar-brand" href="bootstrap.html">Главная</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="film.html">Фильмы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="serial.html">Сериалы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Регистрация</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Поиск фильмов" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Поиск</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="container-xxl" style="margin-bottom: 25px;">
+            <div class="row align-items-center">
+                <div class="col-7">
+                    <h1>Приятного просмотра</h1>
+                </div>
+                <div class="col-5">
+                    <img class="w-100" src="image/best_of_2018.jpg" alt="Film">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-xxl" style="margin-bottom: 25px;">
+            <h2>Другие фильмы</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://api.soling.md/media/subsubcategory/467e9659ade655a0524a6bb9d38d747f4880563f0449e68b975e65f9ad40ab6f.jpg" style="height: 409.24px;" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Рик и Морти</h5>                                 
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://s3.afisha.ru/mediastorage/3c/29/707d4ec0f47a4cf193eb3ec7293c.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Вакфу 3 сезон</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://st.kinobase.org/storage/360x534/posters/2020/11/7d75295a1a12c7900d60.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Флэш</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/c/c3/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE_%D0%BF%D0%B0%D1%86%D0%B0%D0%BD%D0%B0_poster.jpg/1200px-%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE_%D0%BF%D0%B0%D1%86%D0%B0%D0%BD%D0%B0_poster.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Слово пацана 1 сезон</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/600x900" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Гарри Поттер и философский камень</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/0/03/Home_Alone_dvd_rus.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Один дома</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/f/f0/Batman_v_Superman_Dawn_of_Justice.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Бэтмен против Супермена: На заре справедливости</h5>                                 
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQGGdr8YC_qyAK9ooU5OsNMaRjeioFJpRDlqXgfFh8gBJuG1XfHyU8bMhehYOa0N2T0" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Лига справедливости</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/c/ca/Terminator_poster.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Терминатор</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/8/85/Terminator2poster.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Терминатор 2: Судный день</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/7/73/Terminator_3_Rise_of_the_Machines.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Терминатор 3: Восстание машин</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://upload.wikimedia.org/wikipedia/ru/b/bf/Terminator_Salvation_poster.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                                <div class="card-body" style="height: 149.6px;">
+                                  <h5 class="card-title">Терминатор: Да придёт спаситель</h5>
+                                  <a href="#" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="left: -80px;">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="right: -60px;">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <section>
+      <div class="container-xxl" style="margin-bottom: 25px;">
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/e/e5/%D0%94%D0%B6%D0%BE%D0%BD_%D0%A3%D0%B8%D0%BA.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Джон Уик</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/f/f1/John_Wick_2.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Джон Уик 2</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/1/1d/John_Wick_3.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Джон Уик 3</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRqrKJZDdztbandY01Awn8oJQmk1EPRugfnpn3FfgKZ7iwO5t0lyAPYN2zjz2TOkzKr" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Джон Уик 4</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-xxl" style="margin-bottom: 25px;">
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/4/4b/Avatar-2009.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Аватар</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/b/b3/%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80_%D0%9F%D1%83%D1%82%D1%8C_%D0%B2%D0%BE%D0%B4%D1%8B_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Аватар 2</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRYXy2VVt1kyfEWFtdET1B9CJBJ1eXxcEmNr6BypKwPEivJDfAUn8PJbzUR_GNevcsq" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Чужой: Завет</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/6/62/Aliens_vs_Predator.jpg" style="height: 409.24px;" class="card-img-top" alt="Castle">
+                  <div class="card-body" style="height: 149.6px;">
+                    <h5 class="card-title">Чужой против Хищника</h5>
+                    <a href="#" class="btn btn-primary">Читать далее</a>
+                  </div>
+              </div>
+          </div>
+        </div>            
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
